@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.outsidebox{
+	width: 160px;
+	height:600px;
+	margin: 0 auto;
+	border: 1px solid #D5D5D5;
+}
+.logo{
+	width: 160px;
+	height:70px;
+	animation: animlogo 2s 3s forwards;
+	opacity: 0;
+}
+@keyframes animlogo{
+	0%
+	{opacity:0;}
+	100%
+	{opacity:1;}
+}
+.mid{
+	background: url("../image/mid.png");
+	width: 160px;
+	height: 233px;
+	position: relative;
+	z-index: 4;
+	animation: animmid 2s 4s infinite;
+	
+}
+@keyframes animmid{
+	0%
+	{opacity:0;}
+	100%
+	{opacity:1;}
+.text1{
+	width: 160px;
+	height: 100px;
+}
+.text2{
+	width: 160px;
+	height: 100px;
+}
+.pic{
+	width: 160px;
+	height: 266px;
+	position: absolute;
+	top: 250px;
+}
+.footer{
+	width: 160px;
+	height: 77px;
+	background: url("../image/bottom.png");
+	position: absolute;
+	top: 537px;
+	z-index: 3;
+}
